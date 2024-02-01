@@ -19,5 +19,7 @@
        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 1]
   
 8. Where 1 is indication of the symptom and 0 is absence of the symptom.
-9. Results will return as JSON object: ```{"prediction": "Fungal infection"}```.
+9. Results will return as JSON object: ```{"prediction": "Impetigo"}```.
+10. OR ```["skin peeling", "silver like dusting", "small dents in nails", "inflammatory nails"]```
+11. Results will return ```{"prediction": "Psoriasis"}```.
   
