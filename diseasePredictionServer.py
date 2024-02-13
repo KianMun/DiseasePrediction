@@ -54,7 +54,7 @@ def handleSymptoms(symptomList):
     return symptomsArray
 
 
-@app.route("/predict", methods=["GET"])
+@app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()
     #Check for no input

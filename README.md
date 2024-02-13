@@ -22,4 +22,5 @@
 9. Results will return as JSON object: ```{"prediction": "Impetigo"}```.
 10. OR ```["skin peeling", "silver like dusting", "small dents in nails", "inflammatory nails"]```
 11. Results will return ```{"prediction": "Psoriasis"}```.
+12. Server is also deployed in Azure: ```https://predictdisease.azurewebsites.net/predict```
   
